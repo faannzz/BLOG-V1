@@ -1,1 +1,97 @@
 # BLOG-V1
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faannzz - Blog Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-image: url('https://files.catbox.moe/991tal.jpg'); /* Background */
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.65);
+      min-height: 100vh;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+
+    p {
+      max-width: 600px;
+      margin-bottom: 30px;
+      font-size: 1rem;
+    }
+
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .social-links a {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 12px 20px;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .social-links a:hover {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    @media (min-width: 600px) {
+      .social-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .social-links a {
+        width: 200px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <img src="https://files.catbox.moe/h0qwee.jpg" alt="Profile" class="profile-img" /> <!-- Foto profil baru -->
+    <h1>Faannzz</h1>
+    <p>Selamat datang di blog profil pribadi saya. Temukan tautan akun sosial media saya di bawah ini!</p>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/ffaannl?igsh=M2JncDkwOTZsN3Nk" target="_blank">Instagram</a>
+      <a href="https://t.me/Faannzzr" target="_blank">Telegram</a>
+      <a href="https://github.com/faannzz" target="_blank">GitHub</a>
+      <a href="https://discord.gg/FJMJX2fq" target="_blank">Discord</a>
+      <a href="https://ngl.link/fannz71748" target="_blank">NGL</a>
+    </div>
+  </div>
+</body>
+</html>
